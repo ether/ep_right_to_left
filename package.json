@@ -17,7 +17,7 @@
   "version": "0.0.3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/johnyma22/ep_right_to_left.git"
+    "url": "git://github.com/johnmclear/ep_right_to_left.git"
   },
   "dependencies": {},
   "devDependencies": {},
