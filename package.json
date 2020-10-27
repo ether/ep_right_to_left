@@ -38,5 +38,9 @@
   "_npmUser": {
     "name": "johnyma22",
     "email": "john@mclear.co.uk"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "http://etherpad.org/"
   }
 }
