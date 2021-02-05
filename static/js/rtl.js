@@ -1,4 +1,6 @@
-exports.postAceInit = function (hook_name, args, cb) {
+'use strict';
+
+exports.postAceInit = (hookName, args, cb) => {
   $('#chattext').addClass('rtl');
   $('.popup').addClass('rtl');
   $('input').addClass('rtl');
