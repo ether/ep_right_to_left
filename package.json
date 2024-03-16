@@ -14,7 +14,7 @@
     "email": "john@mclear.co.uk",
     "url": "http://mclear.co.uk"
   },
-  "version": "0.0.17",
+  "version": "0.0.18",
   "repository": {
     "type": "git",
     "url": "git://github.com/johnmclear/ep_right_to_left.git"
@@ -29,7 +29,6 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "_id": "ep_right_to_left@0.0.1",
   "_engineSupported": true,
   "_npmVersion": "1.1.24",
   "_nodeVersion": "v0.8.8",
