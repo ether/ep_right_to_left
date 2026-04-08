@@ -17,7 +17,7 @@
   "version": "0.0.30",
   "repository": {
     "type": "git",
-    "url": "git://github.com/johnmclear/ep_right_to_left.git"
+    "url": "https://github.com/ether/ep_right_to_left.git"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
