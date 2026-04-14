@@ -5,4 +5,5 @@ exports.postAceInit = (hookName, args, cb) => {
   $('.popup').addClass('rtl');
   $('input').addClass('rtl');
   pad.changeViewOption('rtlIsTrue', true);
+  return cb();
 };
