@@ -1,4 +1,5 @@
 {
+  "disables": ["@feature:rtl-toggle"],
   "parts": [
     {
       "name": "right_to_left",

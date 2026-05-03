@@ -69,4 +69,11 @@ jobs:
           done
           cd src
           pnpm exec playwright install chromium --with-deps
-          pnpm run test-ui --project=chromium
+          # Use the declared-disables helper instead of plain test-ui:
+          # ep.json declares `disables: ["@feature:rtl-toggle"]`, so the
+          # helper runs two passes — regression (everything not tagged
+          # @feature:rtl-toggle must pass) + honesty (every test tagged
+          # @feature:rtl-toggle must FAIL because the plugin genuinely
+          # forces RTL on regardless of URL/cookie). See
+          # doc/PLUGIN_FEATURE_DISABLES.md.
+          ../bin/run-frontend-tests-with-disables.sh -- --project=chromium
